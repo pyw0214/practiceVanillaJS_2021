@@ -1,9 +1,14 @@
-const age = prompt("How old are you?");
+const title = document.querySelector("#title");
 
-if (age > 18 && age <= 21 ){
-    console.log("you can drink but what about not to?");
-} else if (age > 21 ) {
-    console.log("Go ahead");
- } else {
-        console.log("Too young");
-    }
+const CLICKED_CLASS= "clicked";
+
+function handleClick() {
+    title.classList.toggle(CLICKED_CLASS);
+}
+
+function init(){
+    title.addEventListener("click", handleClick);
+}
+
+init();
+

@@ -2,6 +2,14 @@ body {
   background-color: white;
 }
 
+.btn {
+  cursor: pointer;
+}
 h1 {
-  color: black;
+  color: #9b59b6;
+  transition: color 0.5s ease-in-out;
+}
+
+.clicked {
+  color: #e67e22;
 }
