@@ -6,7 +6,7 @@ body {
   cursor: pointer;
 }
 h1 {
-  color: #9b59b6;
+  color: white;
   transition: color 0.5s ease-in-out;
 }
 
@@ -17,6 +17,7 @@ h1 {
 .form,
 .greetings {
   display: none;
+  color: beige;
 }
 
 .showing {
@@ -40,4 +41,8 @@ h1 {
   height: 100%;
   z-index: -1;
   animation: fadeIn 0.5s linear;
+}
+
+.js-toDoList {
+  color: white;
 }
